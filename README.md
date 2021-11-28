@@ -1,2 +1,1 @@
-# Projet-Arduino
-Maison domotique
+#Bienvenue dans le GitHub de notre projet Arduino !
