@@ -2,7 +2,7 @@
 
 #include "DHT.h"
 #define DHTPIN 2     // I/O de data de l'AM2302
-#define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321 (relaif au modèle du composant)
+#define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321 (relatif au modèle du composant)
 
 #include<SoftwareSerial.h>
 #define RX 10
