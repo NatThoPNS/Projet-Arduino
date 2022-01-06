@@ -25,7 +25,7 @@ void setup() {
   delay(500);
   Serial.println("Lancement du thermostat, veuillez patienter.");
   Serial.println("Mode auto activé au démarrage (par défaut).");
-  delay(1000); // pour que les message précédents ait le temps d'être lu
+  delay(1000); // pour que les message précédents aient le temps d'être lus
   pinMode(led_verte,OUTPUT);
   dht.begin();
 }
