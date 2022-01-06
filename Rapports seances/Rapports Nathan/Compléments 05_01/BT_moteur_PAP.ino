@@ -10,7 +10,7 @@ SoftwareSerial BlueT(RX,TX);
 int PWM=128;
 char Data;
 
-bool mode_auto=true; // par défaut, le chauffage est en mode automatique
+bool mode_auto=true; // par défaut, le store est en mode automatique
 
 int i=0; //utilisé dans la boucle qui gère le nombre de tour du rotor du moteur
 int nbtours=4; // on définit le nombre du tours que doit faire le rotor du moteur
@@ -33,7 +33,7 @@ void setup(){
 
   Serial.println("Lancement des mesures de luminosité, veuillez patienter.");
   Serial.println("Mode auto activé au démarrage (par défaut).");
-  delay(1000); // pour que les message précédents ait le temps d'être lus
+  delay(1000); // pour que les message précédents aient le temps d'être lus
 
   pinMode(LDR, INPUT);
 }
@@ -44,7 +44,7 @@ void loop() {
 
   if (BlueT.available()){
         Data=BlueT.read();
-        if (Data=='A') { //si on envoie A (bouton jaune) à la carte Uno par Bluetooth alors le Store change de mode 
+        if (Data=='A') { //si on envoie A (bouton jaune) à la carte Uno par Bluetooth alors le store change de mode 
         Serial.println("Modification mode auto/manuel");
         delay(1000); // pour que le message précédent ait le temps d'être lu
         mode_auto=!mode_auto;
