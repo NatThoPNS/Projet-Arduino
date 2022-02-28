@@ -1,1 +1,1 @@
-Ce répertoire contient les rendus de séance de Nathan PERDOUX du G3.
+Ce répertoire contient les fichiers complémentaires de la séance 5 du 31/01/2022.
