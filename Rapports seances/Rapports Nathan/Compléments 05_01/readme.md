@@ -1,1 +1,1 @@
-Ce répertoire contient des compléments concernant la 3ème séance du 5 janvier 2022.
+Ce répertoire contient les fichiers complémentaires de la séance 3 du 05/01/2022.
