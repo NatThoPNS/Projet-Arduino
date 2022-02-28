@@ -1,1 +1,1 @@
-Ce répertoire contient des compléments concernant la 2ème séance du 15 décembre 2021.
+Ce répertoire contient les fichiers complémentaires de la séance 2 du 15/12/2021.
