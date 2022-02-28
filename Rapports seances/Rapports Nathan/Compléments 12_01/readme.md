@@ -1,1 +1,1 @@
-Ce répertoire contient des compléments concernant la 4ème séance du 12 janvier 2022.
+Ce répertoire contient les fichiers complémentaires de la séance 4 du 12/01/2022.
