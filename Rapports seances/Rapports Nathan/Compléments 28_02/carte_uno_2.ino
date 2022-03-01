@@ -49,16 +49,16 @@ void loop(){
                     }
                 Serial.print("Value: ");    
                 Serial.println(value);
-                if (value=="715422996"){
+                if (value=="715422996"){ // correspond à l'identifiant du badge bleu que nous utilisons 
                     Serial.println("Accès accordé.");
                     if (porte_ouverte==false){
-                          MG995_Servo.write(8); //Turn clockwise at high speed
+                          MG995_Servo.write(8); //tourne dans le sens horaire
                           Serial.println("La porte s'ouvre");
                           delay(1000);
                           porte_ouverte = true;                                    
                           }
                     else{ //la porte est ouverte
-                       MG995_Servo.write(84); // Turn anti-clockwise
+                       MG995_Servo.write(84); // tourne dans le sens anti-horaire
                        Serial.println("La porte se ferme");
                        delay(1000);
                        porte_ouverte = false;
@@ -67,13 +67,11 @@ void loop(){
                     }            
                 else{
                     Serial.println("Accès refusé.");
-                    //digitalWrite(led_rouge,HIGH);
                     delay(3000);
                   }
 
                 Serial.println(); // pour aérer l'affichage du moniteur série
                 value="";  
-                //delay (500); // on patiente un instant avant un nouveau test
                 }
           }
       }
